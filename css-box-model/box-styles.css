@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+h1, p {
+  background-color: #DDE0E3;    /* Light gray */
+}
+
+em, strong {
+  background-color: #B2D6FF;    /* Light blue */
+  /* display: block; */
+}
+h1 {
+  padding: 40px;
+  border: 4px double ;
+}
+
+p {
+  padding: 20px 0 20px 10px;
+
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+strong {
+  padding: 2px;
+}
+
+
+.button {
+
+
+  color: #FFF;
+  background-color: #5995DA;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;
+  border-radius: 5px;
+
+  width: 200px;
+  box-sizing:  border-box;
+  margin: 20px auto;
+}
+
+
+
+.call-to-action {
+  color: rgb(11, 27, 3) ;
+  font-style: italic ;
+  background-color: orange;
+  font
+}
+
+body {
+  text-align: center;
+}
+
+.line1 {
+  color: none;
+}
+/* Vertical  Horizontal */
+/* padding: 20px 10px;  /*
+
+
+
+/* padding: 20px 0 20px 10px; */
+/* Top  Right  Bottom  Left */

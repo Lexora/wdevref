@@ -1,0 +1,40 @@
+body {
+  color: #414141;
+  background-color: #EEEEEE;    /* Light gray */
+}
+
+h1 {
+  font-size: 4em;
+}
+h2 {
+  font-size: 1.3em;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Comic", "Arial", sans-serif;
+}
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+a:visited {
+  color: purple;
+}
+a:hover {
+  color: rgb(251, 29, 76);
+  text-decoration: none;
+}
+a:active {
+  color: red;
+}
+
+/* to change the color of the URL  when you hover over it */
+  a:visited:hover {   color: orange; }
+  a:active:hover {   color: red; }   
+ }
