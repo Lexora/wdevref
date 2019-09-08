@@ -4,40 +4,81 @@
   box-sizing: border-box;
 }
 
-
-
 .menu {
   height: 100px;
   background-color: #B2D6FF;    /* Medium blue */
 }
 
 .sidebar {
-  float:left;
-  height: 300px;
+  float: left;
   width: 200px;
+  height: 300px;
   background-color: #F09A9D;    /* Red */
 }
 
 .content {
-  width: 650px;
+  padding: 20px;
   float: left;
+  width: 650px;
   height: 500px;
   background-color: #F5CF8E;    /* Yellow */
 }
 
+.article-image {
+  float: left;
+  width: 60px;
+  height: 60px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
 .footer {
-  clear: both; /* clear the two floats */
-  height: 200px;
+  clear: both;
+  overflow: hidden;
   background-color: #D6E9FE;    /* Light blue */
 }
+
 .page {
+  overflow: hidden;
   width: 900px;
   margin: 0 auto;
+
+}
+
+.container {
+
+  overflow: hidden;
+  background-color: #EAEDF0;
 }
 
 
-.container{
-  overflow: hidden; /* applied to the container elem */
-  background-color: #EAEDF0;
-  border: 1px solid red;
+.column {
+  float: left;
+  width: 31%;
+  margin: 20px 1.15%;
+  height: 160px;
+  background-color: #B2D6FF;    /* Medium blue */
+}
+
+
+
+.avatar {
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin: 25px;
+  border-radius: 40px;
+  background-color: #D6E9FE;
+}
+.username{
+  margin-top: 20px;
+}
+
+.comment {
+  margin: 10px;
+  overflow: hidden;
 }
